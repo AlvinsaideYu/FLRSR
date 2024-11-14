@@ -1,2 +1,2 @@
 # FVRSR
-Leveraging Multi-Scale and Attention Mechanisms for Superior Remote Sensing Image Super-Resolution
+A Model for Enhanced Remote Sensing Image Super-Resolution Using Multi-Scale Feature Fusion and Attention Mechanisms
