@@ -97,11 +97,11 @@ if __name__ == '__main__':
     args.scale=[4]
     args.test_block=True
     args.patch_size=256
-    args.model='HAUNET'
-    args.pre_train = r"D:\Wz_Project_Learning\Super_Resolution_Reconstruction\HAUNet_RSISR\experiment\FENetx4_UCMerced\model\model_best.pt"
-    args.dir_data = r"D:\Wz_Project_Learning\Super_Resolution_Reconstruction\dataset\H_data\UCMerced-dataset\val\LR_x4"
-    args.dir_out = r'D:\Wz_Project_Learning\Super_Resolution_Reconstruction\HAUNet_RSISR\result\FENet\FENetx4_UCMerced'
-
+    args.model='FLRSR'
+    args.pre_train = r""
+    args.dir_data = r""
+    args.dir_out = r''
+    
     checkpoint = utils.checkpoint(args)
     sr_model = model.Model(args, checkpoint)
     sr_model.eval()

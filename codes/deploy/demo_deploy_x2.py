@@ -96,10 +96,10 @@ if __name__ == '__main__':
     args.scale=[2]
     args.test_block=True
     args.patch_size=128
-    args.model='HAUNET'
-    args.pre_train = r"Z:\WZ_Super_Resolution\HAUNet_RSISR\experiment\HAUNET\HAUNETx2_UCMerced\model\model_best.pt"
-    args.dir_data = r"Z:\WZ_Super_Resolution\HAUNet_RSISR\dataset\UCMerced-dataset\val\LR_x2"
-    args.dir_out = r'Z:\WZ_Super_Resolution\HAUNet_RSISR\result\HAUNET\HAUNETx2_UCMerced'
+    args.model='FLRSR'
+    args.pre_train = r""
+    args.dir_data = r""
+    args.dir_out = r''
 
     checkpoint = utils.checkpoint(args)
     sr_model = model.Model(args, checkpoint)

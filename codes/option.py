@@ -53,7 +53,7 @@ parser.add_argument('--test_block', action='store_true', default=True,
                     help='test by blcok-by-block')
 
 # model specifications
-parser.add_argument('--model', default='HAUNET',
+parser.add_argument('--model', default='FLRSR',
                     help='model name')
 
 parser.add_argument('--pre_train', type=str, default='.',
@@ -128,8 +128,8 @@ parser.add_argument('--skip_threshold', type=float, default='1e6',
                     help='skipping batch that has large error')
 
 # log specifications
-parser.add_argument('--save', type=str, default='HAUNET_UCX4',
-                    help='file name to save')
+# parser.add_argument('--save', type=str, default='FLRSR_AIDX4',
+#                     help='file name to save')
 parser.add_argument('--load', type=str, default='.',
                     help='file name to load')
 parser.add_argument('--resume', type=int, default=0,

@@ -12,10 +12,9 @@ from sewar.full_ref import sam, uqi, scc
 def main():
     # Configurations
 
-    # GT - Ground-truth;
-    # Gen: Generated / Restored / Recovered images
-    folder_GT = 'G:\datasets\yaogan\dataset/UCMerced-dataset/test\HR_x4'
-    folder_Gen = '../experiment/results\HAUNETx4_UCMerced'
+    
+    folder_GT = 'Ground-truth'
+    folder_Gen = 'Generated / Restored / Recovered images'
 
     crop_border = 4  # same with scale
     suffix = ''  # suffix for Gen images
